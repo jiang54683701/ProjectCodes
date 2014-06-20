@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OBD</string>
+    <string name="home_page">首页</string>
+    <string name="car_status">车况</string>
+    <string name="call">@null</string>
+    <string name="insurance">保险</string>
+    <string name="setting">设置</string>
+</resources>
