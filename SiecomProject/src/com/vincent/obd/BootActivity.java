@@ -41,7 +41,7 @@ public class BootActivity extends Activity
 		String tag = pref.getString(Constant.APPLICATION_VERSION, null);
 
 		String action;
-		if ((tag == null) || (tag != info.versionName))
+		if ((tag == null) || (!tag.equals(info.versionName)))
 		{
 			action = Constant.ACTION_WELCOME;
 
